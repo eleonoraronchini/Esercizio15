@@ -1,23 +1,22 @@
-body {
-    width: 100%;
-}
+
 main {
     display: flex;
     text-align: center;
     flex-direction: column;
     background-color:#fcf7e3;
-    border-radius: 10%;
+    border-radius: 20%;
     width: auto;
     padding-bottom: 2rem;
     color:#5b3d32;
     font-family: Arial, Helvetica, sans-serif;
+   
     
     
 }
 .cardimage{
     width: 100%;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
 
 }
 
