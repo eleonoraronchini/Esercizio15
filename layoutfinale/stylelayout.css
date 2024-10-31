@@ -11,6 +11,13 @@ header{
     margin: 2rem;
    
 }
+.title {
+    font-size: 70px;
+    margin-left: 3rem;
+    font-weight: bold;
+    color:#5b3d32;
+    font-family: Arial, Helvetica, sans-serif;
+}
 button {
     color:#5b3d32 ;
     background-color:#f3df86 ;
@@ -39,20 +46,25 @@ button {
     flex-direction: column;
     background-color:#fcf7e3;
     border-radius: 20%;
-    width: auto;
+    max-width: auto;;
     padding-bottom: 2rem;
     color:#5b3d32;
     font-family: Arial, Helvetica, sans-serif;
-    margin:2rem
-    
+    margin:2rem;
+    width: 50%;
+    gap: 2rem;
+    height: auto;
    
     
     
 }
 .cardimage{
-    width: auto;
+    max-width: 100%;
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
+    width: auto;
+
+
 
 }
 
@@ -60,7 +72,8 @@ button {
     display:flex;
     align-items: center;
     gap: 2rem;
-    margin-left: 20%;   
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 
@@ -91,7 +104,7 @@ h3 {
 display: flex;
 align-items: center;
 flex-direction: row;
-width: 100%;
+
 
 
 }
@@ -99,11 +112,45 @@ width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 100%;
+    
     
 
 }
 
+h4{
+    font-size: 50px;
+    margin-left: 2rem;
+    font-weight: bold;
+    color:#5b3d32;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    font-size: 40px;
+    margin-left: 3rem;
+    font-weight: bold;
+    color:#5b3d32;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+p {
+    font-size: 30px;
+    margin-left: 3rem;
+    color:#5b3d32;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divEndPage {  
+    background-color:#fcf7e3;
+    border-radius: 10%;
+    padding: 1rem;
+
+}
+.divEndPage img {
+    text-align: center;
+    width: 80%;
+    margin-left:4rem;
+ 
+
+}
 @media screen and (min-widht: 1200px) {
 
 }
